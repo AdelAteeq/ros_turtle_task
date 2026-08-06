@@ -1,34 +1,36 @@
 # ROS2 Turtle Task
 
 ## Overview
-This project demonstrates basic ROS2 communication using Publisher and Subscriber nodes, along with controlling the TurtleSim robot to move in a square path.
+This project demonstrates basic ROS 2 communication using Publisher and Subscriber nodes, along with controlling the TurtleSim robot to move in a square path.
 
 ## Features
+
 - Publisher Node
 - Subscriber Node
 - TurtleSim square movement
-- Python implementation using ROS2
+- Python implementation using ROS 2
 
 ## Project Structure
 
-```
+```text
 ros_turtle_task/
 ├── my_robot/
+│   ├── __init__.py
 │   ├── publisher.py
 │   ├── subscriber.py
-│   ├── turtle_square.py
-│   └── __init__.py
+│   └── turtle_square.py
+├── resource/
+├── test/
 ├── package.xml
 ├── setup.py
 ├── setup.cfg
-├── resource/
-└── test/
+└── README.md
 ```
 
 ## Requirements
 
 - Ubuntu 24.04
-- ROS2 Jazzy
+- ROS 2 Jazzy
 - Python 3
 
 ## Build
